@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/image04.jpeg);
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif , Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.menu-header{
+    background-color:azure;
+    text-align: center;
+
+}
+
+.menu-header ul{
+    display: inline-flex;
+    list-style: none;
+    color:cadetblue;
+}
+.menu-header ul li{
+    width: 120px; 
+    margin: 15px;
+    padding: 15px;
+}
+.menu-header ul li a{
+    text-decoration: none;
+    color:cadetblue; 
+}
+.active, .menu-header ul li:hover{
+    background-color: red;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+.menu-header ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: chocolate;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-header ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-header ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-header ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu-header ul li:hover .sub-menu ul li a:hover{
+    color:#fff;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+.myfooter{
+    background-color: rgba(22, 67, 90, 0.8);
+    width: 100%;
+    text-align: center;
+    position: fixed;   
+    bottom: 0px;
+}
+.myfooter h3{
+    padding: 30px;
+
+}
+
+/*Contact Css */
+.contact-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    height: 250px;
+    width:250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 70px;
+    border-radius: 20px;
+    background-color: white;
+}
+.about-section{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-section img{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 30%;
+}
+.about-section div{
+    width: 50%;
+    text-align: center;
+    
+}
+.about-section div h2{
+    color:gold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-section div p{
+    text-align: justify;
+}
+
+

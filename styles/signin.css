@@ -1,0 +1,39 @@
+.signin-wrapper{
+    background-color: coral;
+    width: 500px;
+    height: 660px;
+    padding: 2rem 1rem;
+    margin: 30px auto;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(22, 11, 4, 0.08);
+}
+.signin-wrapper h2{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1rem;
+}
+.signin-wrapper p{
+    font-size: 0.8rem;
+    color: #07001f;
+    margin-top: 1rem;   
+}
+form input{
+    background-color:beige;
+    width: 80%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    width: 75%;
+    background-color: burlywood;
+}
